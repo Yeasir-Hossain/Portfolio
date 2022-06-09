@@ -21,14 +21,12 @@ const About = () => {
                             <h2 className='text-xl p-3'>People don't care about what we say, they care about what we build. So I am always energetic to create something extraordinary.</h2>
                         </div>
                     </Fade>
-                    <a href="https://drive.google.com/file/d/11TzrM1yE_JCMDtyLx6RGeEKAPDAZ5fQ_/view?usp=sharing" target="_blank" rel='noreferrer'>
-                        <button class="custom-btn btn-12 my-5"><span>Download</span><span>Resume</span>
-                        </button>
-                    </a>
+                    <Fade right cascade>
                     <a href="https://github.com/Yeasir-Hossain" target="_blank" rel='noreferrer'>
                         <button class="custom-btn btn-12 ml-5 my-5"><span>Go visit</span><span>Git Hub</span>
                         </button>
                     </a>
+                    </Fade>
                 </div>
             </div>
         </div>

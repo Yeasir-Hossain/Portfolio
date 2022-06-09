@@ -19,6 +19,10 @@ const Intro = () => {
                                     cursor: ""
                                 }}
                             /></h1>
+                        <a href="https://drive.google.com/file/d/11TzrM1yE_JCMDtyLx6RGeEKAPDAZ5fQ_/view?usp=sharing" target="_blank" rel='noreferrer'>
+                            <button class="custom-btn btn-12 my-5"><span>Download</span><span>Resume</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <Jump appear>
