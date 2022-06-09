@@ -9,7 +9,7 @@ const Intro = () => {
             <div class="hero min-h-screen">
                 <div class="hero-content text-center">
                     <div class="max-w-full">
-                        <h1 class="name">
+                        <h1 class="name lg:text-[250px] md:text-7xl sm:text-5xl">
                             <Typewriter
                                 options={{
                                     strings: ['Yeasir Hossain'],
@@ -23,10 +23,14 @@ const Intro = () => {
                             <button class="custom-btn btn-12 my-5"><span>Download</span><span>Resume</span>
                             </button>
                         </a>
+                        <a href="#contact">
+                            <button class="custom-btn btn-12 my-5 ml-5"><span>Me</span><span>Contact</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <Jump appear>
-                    <p className='text-5xl mt-auto p-10'><BsFillArrowDownCircleFill /></p>
+                    <p className='text-5xl mt-auto'><BsFillArrowDownCircleFill /></p>
                 </Jump>
 
             </div>

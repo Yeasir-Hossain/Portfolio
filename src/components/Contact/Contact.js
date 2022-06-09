@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <div class="hero">
+        <div id='contact' class="hero">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <Fade right cascade>
                     <div class="text-center lg:text-left ml-4">
