@@ -25,6 +25,10 @@ const About = () => {
                         <button class="custom-btn btn-12 my-5"><span>Download</span><span>Resume</span>
                         </button>
                     </a>
+                    <a href="https://github.com/Yeasir-Hossain" target="_blank" rel='noreferrer'>
+                        <button class="custom-btn btn-12 ml-5 my-5"><span>Go visit</span><span>Git Hub</span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
