@@ -14,8 +14,9 @@ const Intro = () => {
                                 options={{
                                     strings: ['Yeasir Hossain'],
                                     autoStart: true,
-                                    pauseFor: 5000,
-                                    loop: true
+                                    pauseFor: 10000,
+                                    loop: true,
+                                    cursor: ""
                                 }}
                             /></h1>
                     </div>
