@@ -9,7 +9,7 @@ const Intro = () => {
             <div class="hero min-h-screen">
                 <div class="hero-content text-center">
                     <div class="max-w-full">
-                        <h1 class="name lg:text-[250px] md:text-7xl sm:text-5xl">
+                        <h1 class="name text-[190px]">
                             <Typewriter
                                 options={{
                                     strings: ['Yeasir Hossain'],
