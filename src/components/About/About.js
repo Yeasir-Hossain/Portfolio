@@ -7,7 +7,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div class="hero min-h-screen">
+        <div id='about' class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row">
                 <img src={me} alt="Yeasir" />
                 <div>

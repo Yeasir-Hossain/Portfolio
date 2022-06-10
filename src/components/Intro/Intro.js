@@ -7,9 +7,9 @@ const Intro = () => {
     return (
         <div>
             <div class="hero min-h-screen">
-                <div class="hero-content text-center">
+                <div class="hero-content text-center flex-col ">
                     <div class="max-w-full">
-                        <h1 class="name text-[190px]">
+                        <h1 class="name text-9xl ">
                             <Typewriter
                                 options={{
                                     strings: ['Yeasir Hossain'],
@@ -19,15 +19,8 @@ const Intro = () => {
                                     cursor: ""
                                 }}
                             /></h1>
-                        <a href="https://drive.google.com/file/d/1vIZ5aEvKnnY1cM68ABrIMhKEV7us7ynJ/view?usp=sharing" target="_blank" rel='noreferrer'>
-                            <button class="custom-btn btn-12 my-5"><span>Download</span><span>Resume</span>
-                            </button>
-                        </a>
-                        <a href="#contact">
-                            <button class="custom-btn btn-12 my-5 ml-5"><span>Me</span><span>Contact</span>
-                            </button>
-                        </a>
                     </div>
+                    
                 </div>
                 <Jump appear>
                     <p className='text-5xl mt-auto'><BsFillArrowDownCircleFill /></p>
