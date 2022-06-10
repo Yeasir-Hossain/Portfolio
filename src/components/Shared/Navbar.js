@@ -14,18 +14,15 @@ const Navbar = () => {
                         <div class="btn-group">
                             <Link to="/"><button class="custom-btn btn-12 my-1 ml-5"><span>Portfolio</span><span>Home</span>
                             </button></Link>
-                            <a href="https://drive.google.com/file/d/1vIZ5aEvKnnY1cM68ABrIMhKEV7us7ynJ/view?usp=sharing" target="_blank" rel='noreferrer'>
-                                <button class="custom-btn btn-12 my-1 ml-5"><span>Download</span><span>Resume</span>
-                                </button>
+                            <a href="https://drive.google.com/file/d/11TzrM1yE_JCMDtyLx6RGeEKAPDAZ5fQ_/view?usp=sharing">
+                                <button class="custom-btn btn-12 my-1 ml-5"><span>Download</span><span>Resume</span></button>
                             </a>
                             <HashLink smooth to="#contact">
-                                <button class="custom-btn btn-12 my-1 ml-5"><span>Me</span><span>Contact</span>
-                                </button>
-                            </HashLink>;
+                                <button class="custom-btn btn-12 my-1 ml-5"><span>Me</span><span>Contact</span></button>
+                            </HashLink>
                             <HashLink smooth to="#about">
-                                <button class="custom-btn btn-12 my-1 ml-5"><span>Me</span><span>About</span>
-                                </button>
-                            </HashLink>;
+                                <button class="custom-btn btn-12 my-1 ml-5"><span>Me</span><span>About</span> </button>
+                            </HashLink>
                             <Link to="/blog"><button class="custom-btn btn-12 my-1 ml-5"><span>Blog</span><span>Blog</span>
                             </button></Link>
                         </div>
