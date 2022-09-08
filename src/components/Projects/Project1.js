@@ -8,6 +8,7 @@ import P1_6 from '../../images/p1-6.png'
 import Fade from 'react-reveal/Fade';
 
 const Project1 = () => {
+    const tools_used=['React', 'JavaScript', 'Tailwind', 'DaisyUI', 'NodeJs', 'MongoDB', 'Express', 'Firebase', 'React authentication hook', 'React-Query', 'React hook form', 'Font Awesome', 'React Toastify', 'React Reveal']
     return (
         <Fade left cascade>
             <div className='max-w-screen'>
@@ -31,13 +32,20 @@ const Project1 = () => {
                     <div class="card card-compact max-w-fit bg-base-100 shadow-xl">
                         <figure><img className='w-fit' src={P1_6} alt="Shoes" /></figure>
                     </div>
+                    <a href="https://electronics-lab-b1944.web.app/" className='mx-auto'><button className=" btn btn-outline brightness-50 hover:brightness-100">Live Site</button></a>
+                            <a href="https://github.com/Yeasir-Hossain/electronic-parts-manufacturer"  className='mx-auto'><button className="btn btn-outline brightness-50 hover:brightness-100">Client Code</button></a>
+                            <a href="https://github.com/Yeasir-Hossain/electronic-parts-manufacturer-server" className='mx-auto'><button className="btn btn-outline brightness-50 hover:brightness-100">Server Code</button></a>
                 </div>
                 <div class="hero">
                     <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-                        <div className='flex justify-center gap-5'>
-                            <a href="https://electronics-lab-b1944.web.app/"><button className="btn btn-outline brightness-50 hover:brightness-100">Live Site</button></a>
-                            <a href="https://github.com/Yeasir-Hossain/electronic-parts-manufacturer"><button className="btn btn-outline brightness-50 hover:brightness-100">Client Code</button></a>
-                            <a href="https://github.com/Yeasir-Hossain/electronic-parts-manufacturer-server"><button className="btn btn-outline brightness-50 hover:brightness-100">Server Code</button></a>
+                        <div className='justify-center gap-5'>
+                            
+                            <h1 class="text-3xl text-center font-bold mb-7">Tools I've used</h1>
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-4">
+              {tools_used.map((tool) => (
+                <div className="btn btn-outline brightness-50 hover:brightness-100">{tool}</div>
+              ))}
+            </div>
                         </div>
                         <div>
                             <h1 class="text-5xl font-bold">Features</h1>

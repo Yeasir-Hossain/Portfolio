@@ -6,6 +6,7 @@ import P2_4 from '../../images/P2-4.png'
 import Fade from 'react-reveal/Fade';
 
 const Project2 = () => {
+    const tools_used=['React', 'JavaScript', 'Bootstrap', 'Firebase']
     return (
         <Fade left cascade>
             <div className='max-w-screen'>
@@ -23,12 +24,18 @@ const Project2 = () => {
                     <div class="card card-compact max-w-fit bg-base-100 shadow-xl">
                         <figure><img className='w-fit' src={P2_4} alt="Shoes" /></figure>
                     </div>
+                    <a href="https://isp-website-for-writer.web.app/" className='mx-auto'><button className="btn btn-outline brightness-50 hover:brightness-100">Live Site</button></a>
+                            <a href="https://github.com/Yeasir-Hossain/the-writer" className='mx-auto'><button className="btn btn-outline brightness-50 hover:brightness-100">Code</button></a>
                 </div>
                 <div class="hero">
                     <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-                        <div className='flex justify-center gap-5'>
-                            <a href="https://isp-website-for-writer.web.app/"><button className="btn btn-outline brightness-50 hover:brightness-100">Live Site</button></a>
-                            <a href="https://github.com/Yeasir-Hossain/the-writer"><button className="btn btn-outline brightness-50 hover:brightness-100">Code</button></a>
+                        <div className=' justify-center gap-5'>
+                        <h1 class="text-3xl text-center font-bold mb-7">Tools I've used</h1>
+                            <div className="grid lg:grid-cols-4 grid-cols-2 gap-4">
+                                {tools_used.map((tool) => (
+                                    <div className="btn btn-outline brightness-50 hover:brightness-100">{tool}</div>
+                                ))}
+                            </div>
                         </div>
                         <div>
                             <h1 class="text-5xl font-bold">Features</h1>

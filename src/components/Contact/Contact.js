@@ -9,7 +9,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_04ft5qq', 'template_kby1n9r', form.current, 'C3VLFtX2oBtdfiIo1')
+        emailjs.sendForm('service_jytcqqo', 'template_zzwlj1e', form.current, 'C3VLFtX2oBtdfiIo1')
             .then((result) => {
                 toast.success("Mail sent.I will reply to you shortly")
             }, (error) => {
